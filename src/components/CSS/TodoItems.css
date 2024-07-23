@@ -1,0 +1,41 @@
+.Todo-Items{
+       background-color: #7FC7D9;
+       width:90%;
+       display: flex;
+       height: 50px;
+       justify-content: space-between;
+       margin-top: 20px;
+       border-radius: 20px;
+       margin-left: 5%;
+       margin-right: 5%;
+      
+}
+
+ .Todo-left{
+       display: flex;
+       column-gap: 10px;
+       padding-top: 10px;
+       padding-left: 20px;
+
+}
+ .Todo-main{
+       margin-top: -2px;
+       font-size: 25px;
+ }
+.Todo-right{
+       position: relative;
+       top:12px;
+       padding-right: 20px;
+} 
+
+.tick-img{
+       cursor: pointer;
+}
+
+.notTick-img{
+       cursor: pointer;
+}
+
+.cross-img{
+       cursor: pointer;
+}
